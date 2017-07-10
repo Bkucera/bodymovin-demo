@@ -30,7 +30,7 @@ module.exports = {
         new HtmlWebpackPlugin({
         name: 'app',
         chunks: ['app'],
-        filename: 'app.html',
+        filename: 'index.html',
         template: './src/app.html'
     }), new CopyWebpackPlugin([
         {from: './resources', to: 'resources'}
