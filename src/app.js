@@ -28,3 +28,10 @@ var animation4 = bodymovin.loadAnimation({
   autoplay: true,
   path: './resources/jump_loader.json'
 })
+var animation4 = bodymovin.loadAnimation({
+  container: document.getElementById('bm5'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: './resources/box_creeper.json'
+})
